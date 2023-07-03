@@ -1,6 +1,8 @@
 ## Chess Game with React
 
 This project was developed to create a chess game using the React, react-dnd, chess.js and Tailwind CSS libraries.
+## The responsive setting of the site has not been made yet. You can open it from the desktop.
+https://basic-chess-game.netlify.app
 
 ## Libraries Used
 * React
