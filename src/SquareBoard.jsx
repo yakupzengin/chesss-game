@@ -1,9 +1,9 @@
 import React from 'react'
-import { DragPreviewImage, useDrag } from 'react-dnd'
+import {  /* DragPreviewImage, */  useDrag } from 'react-dnd'
 
 const SquareBoard = ({ brd ,positionCntrl }) => {
 
-  const [{isDragging}, drag, preview] = useDrag({
+  const [ /* {isDragging}, */  drag, /* preview*/] = useDrag({
     type: "chess",
     item: { id: `${positionCntrl}_${brd.type}_${brd.color}` },
     collect : (monitor) =>{
